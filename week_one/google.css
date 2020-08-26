@@ -3,12 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+a{
+    text-decoration: none;
+    margin: auto;
+}
+
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     float: right;
+    
 }
+li{
+    list-style-type: none;
+}
+li a{
+    margin-left: 10px;
+}
+
 .google-img{
     display: flex;
     justify-content: center;
@@ -18,8 +31,16 @@ header{
 }
 .main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+button{
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: gray;
 }
 .main input{
     height: 50px;
@@ -28,8 +49,21 @@ header{
     outline: none;
     font-size: 20px;
     font-weight: 500;
-    background-color: ;
+    border:1px solid gray;
     color: white;
     cursor: pointer;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    color: black;
+    margin-top: 20px;
+    padding: 80px;
+}
+footer h4{
     margin: 10px;
 }
