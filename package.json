@@ -1,0 +1,22 @@
+{
+  "name": "ingressive_sb",
+  "version": "1.0.0",
+  "description": "repo for assignments",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d week_one/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khrees2412/Ingressive_SB.git"
+  },
+  "author": "Christian Ndu",
+  "license": "MIT",
+  "homepage":"https://khrees2412/github.io/Ingressive_SB",
+  "bugs": {
+    "url": "https://github.com/Khrees2412/Ingressive_SB/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
